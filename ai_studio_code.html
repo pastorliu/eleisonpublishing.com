@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleison Publishing | Scholarly OCR & Book Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .serif { font-family: 'Playfair Display', serif; }
+        .gradient-bg { background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d); } /* Subtle academic colors */
+        .hero-overlay { background: rgba(15, 23, 42, 0.85); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold text-slate-800 serif tracking-tight">ELEISON <span class="text-blue-800">PUBLISHING</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8 text-sm font-medium">
+                        <a href="#services" class="text-slate-600 hover:text-blue-800 transition">Services</a>
+                        <a href="#languages" class="text-slate-600 hover:text-blue-800 transition">Specializations</a>
+                        <a href="#workflow" class="text-slate-600 hover:text-blue-800 transition">Workflow</a>
+                        <a href="#contact" class="bg-blue-800 text-white px-4 py-2 rounded-md hover:bg-blue-900 transition">Get a Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative h-screen flex items-center justify-center text-center text-white">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&q=80&w=2000" class="w-full h-full object-cover" alt="Library background">
+            <div class="absolute inset-0 hero-overlay"></div>
+        </div>
+        
+        <div class="relative z-10 px-4 max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">Bridging Ancient Texts and <span class="text-blue-400">Modern Technology</span></h1>
+            <p class="text-xl md:text-2xl mb-10 text-slate-300 font-light">Professional OCR, transcription proofreading, and bespoke book design for scholars, historians, and publishers.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#services" class="bg-blue-700 hover:bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition">Our Services</a>
+                <a href="#contact" class="bg-white hover:bg-slate-100 text-slate-900 px-8 py-4 rounded-lg text-lg font-semibold transition">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Comprehensive Publishing Solutions</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto">From raw scans to polished publications, we provide a high-tech, human-verified pipeline for complex texts.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="p-8 border border-slate-100 rounded-2xl bg-slate-50 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-800 group-hover:text-white transition">
+                        <i class="fa-solid fa-file-import text-xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">OCR & Transcription</h3>
+                    <p class="text-slate-600">Advanced scanning and Optical Character Recognition. We don't just run software; we meticulously proofread every line to ensure 100% accuracy.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="p-8 border border-slate-100 rounded-2xl bg-slate-50 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-800 group-hover:text-white transition">
+                        <i class="fa-solid fa-pen-nib text-xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Book Design</h3>
+                    <p class="text-slate-600">Professional typesetting using <strong>Adobe InDesign</strong>. We specialize in complex layouts, footnotes, and multi-language side-by-side editions.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="p-8 border border-slate-100 rounded-2xl bg-slate-50 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-800 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-800 group-hover:text-white transition">
+                        <i class="fa-solid fa-robot text-xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">AI & Tech Support</h3>
+                    <p class="text-slate-600">Integrating AI tools for translation assistance and efficiency, paired with cost-effective, timely technical support for authors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Language Specialization -->
+    <section id="languages" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <h2 class="text-4xl font-bold mb-6">Specialized Linguistic Expertise</h2>
+                    <p class="text-slate-400 text-lg mb-8">We handle scripts that standard OCR software fails to recognize. Our team combines linguistic knowledge with technical precision.</p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-400"></i> Chinese (Traditional/Simplified)</div>
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-400"></i> English</div>
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-400"></i> Latin</div>
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-400"></i> German (Roman & Fraktur)</div>
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-400"></i> Greek</div>
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-400"></i> Hebrew</div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 grid grid-cols-2 gap-4">
+                    <div class="h-40 bg-slate-800 rounded-lg flex items-center justify-center text-3xl serif italic border border-slate-700">Fraktur</div>
+                    <div class="h-40 bg-slate-800 rounded-lg flex items-center justify-center text-3xl serif border border-slate-700">Ελληνικά</div>
+                    <div class="h-40 bg-slate-800 rounded-lg flex items-center justify-center text-3xl serif border border-slate-700">עברית</div>
+                    <div class="h-40 bg-slate-800 rounded-lg flex items-center justify-center text-3xl serif border border-slate-700">中文</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow / Package -->
+    <section id="workflow" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">The Whole Package</h2>
+                <p class="text-slate-600">Our end-to-end pipeline ensures your project moves from archive to shelf seamlessly.</p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row justify-between gap-8 relative">
+                <!-- Step 1 -->
+                <div class="flex-1 text-center p-6">
+                    <div class="text-4xl font-bold text-blue-200 mb-2">01</div>
+                    <h4 class="text-xl font-bold mb-2">Digitization</h4>
+                    <p class="text-slate-500 text-sm">High-res scanning and raw image processing.</p>
+                </div>
+                <div class="hidden md:block mt-8 text-slate-300"><i class="fa-solid fa-arrow-right"></i></div>
+                <!-- Step 2 -->
+                <div class="flex-1 text-center p-6">
+                    <div class="text-4xl font-bold text-blue-200 mb-2">02</div>
+                    <h4 class="text-xl font-bold mb-2">OCR & Proof</h4>
+                    <p class="text-slate-500 text-sm">Conversion to text and expert manual correction.</p>
+                </div>
+                <div class="hidden md:block mt-8 text-slate-300"><i class="fa-solid fa-arrow-right"></i></div>
+                <!-- Step 3 -->
+                <div class="flex-1 text-center p-6">
+                    <div class="text-4xl font-bold text-blue-200 mb-2">03</div>
+                    <h4 class="text-xl font-bold mb-2">Typesetting</h4>
+                    <p class="text-slate-500 text-sm">Professional layout in Adobe InDesign.</p>
+                </div>
+                <div class="hidden md:block mt-8 text-slate-300"><i class="fa-solid fa-arrow-right"></i></div>
+                <!-- Step 4 -->
+                <div class="flex-1 text-center p-6">
+                    <div class="text-4xl font-bold text-blue-200 mb-2">04</div>
+                    <h4 class="text-xl font-bold mb-2">Publication</h4>
+                    <p class="text-slate-500 text-sm">Print-ready PDFs and E-pub formats.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-slate-50">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-6">Start Your Project</h2>
+            <p class="text-slate-600 mb-12">Looking for cost-effective, timely, and technically sound publishing support? We are ready to help.</p>
+            
+            <form class="grid grid-cols-1 gap-y-6 text-left bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">Name</label>
+                        <input type="text" class="w-full px-4 py-2 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none transition">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">Email</label>
+                        <input type="email" class="w-full px-4 py-2 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none transition">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Language(s) Required</label>
+                    <input type="text" placeholder="e.g. German Fraktur and Latin" class="w-full px-4 py-2 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none transition">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Message</label>
+                    <textarea rows="4" class="w-full px-4 py-2 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none transition"></textarea>
+                </div>
+                <button class="w-full bg-blue-800 text-white font-bold py-3 rounded-md hover:bg-blue-900 transition">Send Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="text-2xl font-bold text-white serif mb-4">ELEISON <span class="text-blue-400">PUBLISHING</span></div>
+            <p class="mb-8">Excellence in transcription, design, and digital humanities.</p>
+            <div class="text-sm">
+                &copy; 2026 Eleison Publishing. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
