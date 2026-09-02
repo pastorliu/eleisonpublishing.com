@@ -2,45 +2,69 @@
 
 Website and digital publishing infrastructure for Eleison Publishing.
 
-## Purpose
+## Services
 
-Eleison Publishing focuses on specialized **translation, OCR/text recovery, language proofreading, and publication**, with particular expertise in:
+Eleison Publishing provides specialized:
 
-- Greek — Ancient and Koine
-- German — modern and historical texts
-- Latin — classical and ecclesiastical
-- English — translation and editorial work
-- Chinese — traditional and simplified
+- Translation
+- OCR and historical text recovery
+- Language proofreading and editorial review
+- Publication preparation for digital and print
 
-AI is used as an **assistive technology**, especially for repetitive processing, OCR cleanup, comparison, terminology extraction, and first-pass translation. Human linguistic review remains responsible for the final text.
+Language specialization includes:
 
-## Repository structure
+- **Greek** — Ancient, Koine, and modern material
+- **German** — modern, historical, and difficult print such as Fraktur
+- **Latin** — classical, medieval, and ecclesiastical
+- **English** — translation and editorial work
+- **Chinese** — traditional and simplified
+
+## AI-assisted editorial model
+
+AI is used as an **assistive technology**, especially for repetitive processing, OCR cleanup, transcription, comparison, alignment, terminology extraction, consistency checks, and first-pass translation.
+
+AI output is not treated as the final authority. Human linguistic review remains responsible for meaning, terminology, style, source fidelity, and publication quality.
+
+## Site structure
 
 ```text
 .
-├── index.html       # Public homepage
-├── styles.css       # Responsive visual system
+├── index.html       # Homepage
+├── services.html    # Translation, OCR, proofreading, publication
+├── languages.html   # Language specialization
+├── workflow.html    # Editorial and AI-assisted workflow
+├── about.html       # Company philosophy and standards
+├── contact.html     # Project inquiry / contact
+├── styles.css       # Shared responsive visual system
 ├── script.js        # Lightweight browser interactions
-├── assets/          # Future logos, images, icons, and downloadable resources
-├── content/         # Future structured service/publication content
-├── projects/        # Future case studies and publication records
+├── assets/          # Logos, images, icons, downloadable resources
+├── content/         # Future structured content
+├── projects/        # Future publications and case studies
 ├── docs/            # Editorial standards and workflow documentation
-└── .github/         # Future deployment and CI configuration
+└── .github/         # Deployment and CI configuration
 ```
 
 ## Design direction
 
-The site uses a restrained scholarly/editorial aesthetic: warm paper tones, serif typography for literary emphasis, strong typographic hierarchy, and minimal ornament. It is intended to communicate **precision, trust, scholarship, and modern technical competence** rather than generic AI automation.
+The site uses a restrained scholarly/editorial aesthetic: warm paper tones, serif typography, strong hierarchy, and minimal ornament. The visual language is intended to communicate precision, trust, scholarship, and modern technical competence rather than generic AI automation.
 
 ## Deployment
 
-The site is static HTML/CSS/JavaScript and can be deployed through GitHub Pages, Cloudflare Pages, or another static host.
+The site is static HTML/CSS/JavaScript and is suitable for GitHub Pages, Cloudflare Pages, or another static host. The custom domain can be attached after deployment.
 
 ## Roadmap
 
-1. Add publication catalog and project/case-study pages.
-2. Add dedicated service pages for translation, OCR, proofreading, and publication.
-3. Add multilingual site support, beginning with English and Chinese.
-4. Add a project inquiry form.
-5. Add privacy-conscious AI-assisted text-processing documentation.
-6. Add structured editorial terminology and style-guide resources.
+- [x] Professional homepage
+- [x] Dedicated service page
+- [x] Language specialization page
+- [x] AI/editorial workflow page
+- [x] About page
+- [x] Project inquiry page
+- [ ] Publication catalog and individual publication records
+- [ ] Project/case-study pages
+- [ ] English / 中文 language switcher
+- [ ] Structured project inquiry form
+- [ ] Privacy-conscious AI processing documentation
+- [ ] Editorial terminology and style-guide resources
+- [ ] Favicon and finalized brand assets
+- [ ] GitHub Pages / Cloudflare deployment configuration
